@@ -1,0 +1,74 @@
+@charset "EUC-KR";
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+table{
+	border-collapse:collapse;
+	margin-bottom:16px;
+}
+a, a:hover, a:visited{
+	text-decoration-line: none;
+}
+#update{
+	margin:4em auto;
+}
+body{
+	margin-top: 8px;
+}
+
+.margin_bottom{
+	margin-bottom:0.4em;
+}
+.margin_top{
+	margin-top:0.4em;
+}
+.enroll:hover, .enroll:visited{
+	color:blue;
+}
+.enroll:active{
+	color:#2159c2;
+}
+#nav{
+	border-radius:10px;
+	background:#337ab7;
+	font-size:16px;
+}
+#nav:hover{
+	border-radius:10px;
+}
+.nav_item{
+	padding:16px;
+	
+}
+.nav_item:active, .nav_item:hover{
+	background:#2a6496;
+	border-radius:10px;
+}
+
+.text-white, .text-white:visited{
+	color:white;
+}
+.course-table{
+	border:none;
+	margin-bottom:2em;
+}
+.course-table td{
+	border:none;
+	border-bottom:1px solid #ededed;
+	padding:0.4em 0;
+}
+.course-table th{
+	border:none;
+	background:#ededed;
+	padding:1em 0;
+}
+.info{
+	border:none;
+}
+.info th{
+	border:1px solid #ccc;
+	padding:1em 0;
+}
+#login{
+	margin:4em auto;
+}
